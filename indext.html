@@ -60,47 +60,50 @@
   </section>
 
      <!-- 3rd Input type  -->
-     <section class="lg:grid lg:grid-cols-2 lg:w-full bg-gray-500 my-6">
-      <div class="flex justify-center items-center rounded-xl">
-        <div class="text-center">
-          <h1 class="text-white text-2xl font-bold my-8">BMI Calculator</h1>
-          <div class="rounded-lg border border-gray-700">
-            <table class="w-full text-left border-collapse text-white">
-              <thead>
-                <tr class="border-b border-gray-700 bg-gray-800">
-                  <th class="px-6 py-3 font-semibold">BMI</th>
-                  <th class="px-6 py-3 font-semibold">Weight Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="border-b border-gray-700">
-                  <td class="px-6 py-3">Below 18.5</td>
-                  <td class="px-6 py-3">Underweight</td>
-                </tr>
-                <tr class="border-b border-gray-700">
-                  <td class="px-6 py-3">18.5 - 24.9</td>
-                  <td class="px-6 py-3">Healthy</td>
-                </tr>
-                <tr class="border-b border-gray-700">
-                  <td class="px-6 py-3">25.0 - 29.9</td>
-                  <td class="px-6 py-3">Overweight</td>
-                </tr>
-                <tr>
-                  <td class="px-6 py-3">30.0 - and Above</td>
-                  <td class="px-6 py-3">Obese</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+     <section class="lg:grid lg:grid-cols-2 lg:w-full bg-gray-500  my-6">
+      <!-- BMI Calculator Part -->
+      <div class="flex justify-center items-center min-h-screen bg-gray-100 p-6">
+        <div class="w-full max-w-lg">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-6">BMI Calculator</h2>
+            <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                <table class="w-full border-collapse">
+                    <thead>
+                        <tr class="bg-[#c49a6c] text-white">
+                            <th class="py-3 px-6 text-left text-lg">BMI</th>
+                            <th class="py-3 px-6 text-left text-lg">Weight Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-700">
+                        <tr class="border-b">
+                            <td class="py-3 px-6">Below 18.5</td>
+                            <td class="py-3 px-6">Underweight</td>
+                        </tr>
+                        <tr class="bg-gray-50 border-b">
+                            <td class="py-3 px-6">18.5 - 24.9</td>
+                            <td class="py-3 px-6">Healthy</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-3 px-6">25.0 - 29.9</td>
+                            <td class="py-3 px-6">Overweight</td>
+                        </tr>
+                        <tr class="bg-gray-50">
+                            <td class="py-3 px-6">30.0 and Above</td>
+                            <td class="py-3 px-6">Obese</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-      </div>
+    </div>
+
       <!-- Calculate your BMI section -->
       <div class="flex justify-center items-center bg-[#222222] rounded-3xl my-6">
         <div class="bg-[#7873735d] text-white p-8 rounded-lg w-full flex flex-col justify-center items-center ">
-          <h1 class="text-white text-center font-bold text-2xl my-4">
+
+          <h1 class="text-white text-center font-bold text-3xl my-4 w-72">
             Calculate your BMI
           </h1>
-          <p class="text-[#FFFFFF80] my-3 text-center">
+          <p class="text-[#FFFFFF80] my-3 text-center w-72">
             We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
           </p>
           <div class="grid grid-cols-2 gap-4">
