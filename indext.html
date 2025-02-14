@@ -10,8 +10,20 @@
       src="https://kit.fontawesome.com/9c36c5aea5.js"
       crossorigin="anonymous"
     ></script>
+    <!-- For Font ==> imported from google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- For styling the gogle font -->
+    <style>
+      .font-for-input-type2{
+        font-family: "EB Garamond", serif;
+      }
+
+    </style>
     <title>Footer Section</title>
   </head>
+
   <body>
     <!-- 1st input Type-->
     <footer
@@ -27,5 +39,27 @@
         </button>
       </div>
     </footer>
+    <!-- 2nd Input Type -->
+
+     <footer class="flex flex-col justify-center items-center text-center space-y-3 bg-[url('./assets/banner2.png')] bg-cover bg-no-repeat text-white min-h-screen mt-4">
+
+      <h1 class="font-for-input-type2 lg:w-[700px] lg:text-5xl text-3xl w-72 font-bold ">We Provide Effective Legal Solutions</h1>
+      <p class="lg:w-[700px] text-[#E7E7E7] text-xs  w-72">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+      <div class="flex items-center justify-center mt-6 ">
+        <div class="relative flex items-center w-96 bg-white rounded-lg p-2 ">
+            <!-- Input Field -->
+            <input  type="text" placeholder="Search your services"
+                class="w-full px-5 py-3 rounded-lg text-gray-800 shadow-lg outline-none focus:ring-2 focus:ring-gray-400 placeholder-gray-500">
+        </div>
+        <!-- Search Button -->
+        <button class="absolute right-115 bg-[#c49a6c] text-white font-semibold  px-4 py-5 rounded-xl shadow-md hover:bg-[#a67c52] transition duration-300">
+          Search
+      </button>
+    </div>
+
+
+
+     </footer>
   </body>
 </html>
